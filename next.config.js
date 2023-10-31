@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        loader: 'akamai',
-        path: '',
-    },
-    output: 'export'
-}
+  output: "export",
+  trailingSlash: true,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

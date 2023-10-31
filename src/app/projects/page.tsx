@@ -22,8 +22,8 @@ export default function Projects() {
         <div className={styles.projectsLeft}>
           <Title str={projects[project].name} />
           <div className={styles.projectsImages}>
-            <img src={`${project}1.png`} />
-            <img src={`${project}2.png`} />
+            <img src={`/${project}1.png`} />
+            <img src={`/${project}2.png`} />
           </div>
           <p>{projects[project].description}</p>
           <div className={styles.projectsBuiltWith}>

@@ -17,7 +17,7 @@ const projects: Projects = {
     github: "https://github.com/oslabs-beta/Watchdogs",
     description:
       "An open source monitoring tool for AWS Lambda functions, leveraging the AWS SDK to access user information through CloudWatch. This is the perfect tool for developers in the process of transitioning their on-site services to the cloud. Get real time metrics for your Lambda functions without struggling with the AWS console.",
-    builtWith: ["TypeScript", "AWS", "React", "Node.js", "MondoDB"],
+    builtWith: ["TypeScript", "AWS", "React", "Node.js", "MongoDB"],
   },
   marathonTrainer: {
     name: "Marathon Trainer",

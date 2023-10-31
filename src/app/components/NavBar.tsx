@@ -30,7 +30,7 @@ export default function ButtonAppBar() {
             href="/"
             style={{ textDecoration: "none" }}
           >
-            <img src="icon.png" alt="icon" height="64px" />
+            <img src="/icon.png" alt="icon" height="64px" />
           </Link>
           <List sx={{ display: "flex", flexDirection: "row" }}>
             <ListItem disableGutters>

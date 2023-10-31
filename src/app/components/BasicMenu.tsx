@@ -46,7 +46,7 @@ export default function BasicMenu() {
         <MenuItem
           onClick={handleClose}
           component="a"
-          href="Peter_Feng_Resume.pdf"
+          href="/Peter_Feng_Resume.pdf"
           target="_blank"
         >
           Resume

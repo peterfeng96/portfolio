@@ -35,7 +35,7 @@ export default function Home() {
         </div>
         <div className={styles.introductionRight}>
           <img
-            src="/introduction.jpg"
+            src="/introduction.png"
             alt="introduction image"
             style={{ objectFit: "cover", maxWidth: "80%" }}
           />

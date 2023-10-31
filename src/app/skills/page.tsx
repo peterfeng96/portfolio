@@ -1,11 +1,23 @@
 import styles from "../page.module.css";
 import Title from "../components/Title";
 import Container from "../components/Container";
+import { Link } from "@mui/material";
 
 export default function Skills() {
   return (
     <main className={styles.main}>
       <div className={styles.skills}>
+        <div className={styles.certifications}>
+          <Title str="Certifications"></Title>
+          <Link
+            href="/Peter_Feng_AWS.pdf"
+            target="_blank"
+            color="textPrimary"
+            sx={{ textDecoration: "none" }}
+          >
+            <Container list={["AWS Certified Solutions Architect Associate"]} />
+          </Link>
+        </div>
         <div className={styles.languages}>
           <Title str="Languages"></Title>
           <Container
