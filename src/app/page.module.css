@@ -17,8 +17,11 @@
 }
 
 .title {
-  min-width: 250px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 150px;
+  width: 270px;
   padding: 3rem 1rem;
   background-image: url("../../public/cloud.png");
   background-position: center center;
